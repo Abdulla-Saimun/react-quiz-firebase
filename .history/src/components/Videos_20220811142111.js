@@ -33,11 +33,7 @@ export default function Videos() {
       )}
       {!loading && videos.length === 0 && <div>No data found!</div>}
       {error && <div>There was an error!</div>}
-      {loading && (
-        <div className='loader-container-s'>
-          <div className='spinner-s'></div>
-        </div>
-      )}
+      {loading && <div>Loading...</div>}
     </div>
   );
 }

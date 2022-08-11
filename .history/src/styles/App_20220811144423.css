@@ -83,7 +83,7 @@ h4 {
   justify-content: center;
   align-items: center;
   position: fixed;
-  background: transparent;
+  background: rgba(0, 0, 0, 0.834);
   z-index: 1;
 }
 
